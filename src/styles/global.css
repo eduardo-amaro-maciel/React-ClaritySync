@@ -10,6 +10,19 @@
    font-family: "Roboto";
 }
 
+*::-webkit-scrollbar {
+   width: 8px;
+}
+
+::-webkit-scrollbar-track {
+   background: #333333;
+}
+
+*::-webkit-scrollbar-thumb {
+   background-color: #ff6400;
+   border: 1px solid #333333;
+}
+
 ::selection {
    background-color: #ff6400;
    color: #fffefe;
