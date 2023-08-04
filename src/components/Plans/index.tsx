@@ -2,7 +2,7 @@ import Card from "./Card";
 
 export default function Plans() {
    return (
-      <section className="w-full mt-24">
+      <section className="w-full my-24">
          <div className="max-w-[1050px] m-auto">
             <div className="mb-3 max-w-[850px] m-auto flex items-center flex-col">
                <h1 className="text-cor-preto tracking-wide text-6xl font-semibold mb-3 leading-[62px]">

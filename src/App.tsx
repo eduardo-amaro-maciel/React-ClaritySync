@@ -4,6 +4,8 @@ import Management from "./components/Management";
 import Showcase from "./components/Showcase";
 import Assessments from "./components/Assessments";
 import Plans from "./components/Plans";
+import Form from "./components/Form";
+import Footer from "./components/Footer";
 
 export default function App() {
    return (
@@ -14,6 +16,8 @@ export default function App() {
          <Showcase />
          <Assessments />
          <Plans />
+         <Form />
+         <Footer />
       </>
    );
 }

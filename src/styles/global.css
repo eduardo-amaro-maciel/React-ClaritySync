@@ -18,3 +18,10 @@
 body {
    background-color: #fffefe;
 }
+
+.bg-form {
+   background-image: url("../assets/images/form-bg.svg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
