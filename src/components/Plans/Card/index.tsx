@@ -1,25 +1,31 @@
 import "./style.css";
 import DownloadButton from "../../DownloadButton";
+import { BsCheckCircleFill } from "react-icons/bs";
 
 export default function Card() {
    return (
       <div className="card">
          <span className="font-sans font-semibold text-cor-preto">Free</span>
-         <ul className="lista-pacotes">
-            <li>
-               Item 1 <i className="fa-solid fa-xmark"></i>
+         <ul className="list-disc flex pl-3 text-cor-preto font-semibold gap-2 flex-col">
+            <li className="flex justify-between pr-2">
+               <p>Item 1</p>
+               <BsCheckCircleFill />
             </li>
-            <li>
-               Item 2 <i className="fa-solid fa-check"></i>
+            <li className="flex justify-between pr-2">
+               <p>Item 1</p>
+               <BsCheckCircleFill />
             </li>
-            <li>
-               Item 3 <i className="fa-solid fa-check"></i>
+            <li className="flex justify-between pr-2">
+               <p>Item 1</p>
+               <BsCheckCircleFill />
             </li>
-            <li>
-               Item 4 <i className="fa-solid fa-check"></i>
+            <li className="flex justify-between pr-2">
+               <p>Item 1</p>
+               <BsCheckCircleFill />
             </li>
-            <li>
-               Item 5 <i className="fa-solid fa-xmark"></i>
+            <li className="flex justify-between pr-2">
+               <p>Item 1</p>
+               <BsCheckCircleFill />
             </li>
          </ul>
          <span className="font-sans font-semibold text-cor-preto">
