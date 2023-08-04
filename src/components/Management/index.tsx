@@ -3,7 +3,7 @@ import DownloadButton from "../DownloadButton";
 
 export default function Management() {
    return (
-      <section className="w-full">
+      <section className="w-full" data-aos="fade-left">
          <div className="max-w-[1050px] m-auto flex gap-2">
             <div className="w-2/3 flex flex-col gap-2">
                <span className="text-cor-preto tracking-wide text-6xl font-semibold mb-3 leading-[62px]">

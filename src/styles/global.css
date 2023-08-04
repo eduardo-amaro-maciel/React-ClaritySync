@@ -30,6 +30,8 @@
 
 body {
    background-color: #fffefe;
+   width: 100vw;
+   overflow-x: hidden;
 }
 
 .bg-form {

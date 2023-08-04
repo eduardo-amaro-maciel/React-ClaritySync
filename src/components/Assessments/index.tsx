@@ -3,7 +3,7 @@ import usersAssessments from "./usersAssessments";
 
 export default function Assessments() {
    return (
-      <section className="w-full">
+      <section className="w-full" data-aos="fade-left">
          <div className="max-w-[850px] m-auto flex items-center flex-col">
             <h1 className="text-cor-preto tracking-wide text-6xl font-semibold mb-3 leading-[62px]">
                Nossas Avaliações

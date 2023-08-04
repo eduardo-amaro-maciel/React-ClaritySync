@@ -3,7 +3,7 @@ import DownloadButton from "../DownloadButton";
 
 export default function Hero() {
    return (
-      <section className="w-full mb-16">
+      <section className="w-full mb-16" data-aos="fade-right">
          <div className="max-w-[1050px] m-auto flex gap-2">
             <div className="w-2/4 mt-2">
                <AppointmentBookingAnimation />

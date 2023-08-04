@@ -3,7 +3,7 @@ import SearchingThroughListAnimation from "../LottieAnimations/SearchingThroughL
 
 export default function Showcase() {
    return (
-      <section className="w-full">
+      <section className="w-full" data-aos="fade-right">
          <div className="max-w-[1050px] m-auto flex gap-2">
             <div className="w-2/4 mt-2">
                <SearchingThroughListAnimation />
