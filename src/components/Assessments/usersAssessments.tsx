@@ -11,7 +11,7 @@ const usersAssessments = [
          "Lorem turies, but also the leap into electronic typesetting, rop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
    },
    {
-      name: "Carlos J",
+      name: "Carlos J.",
       image: user2,
       note: "5.0",
       description:

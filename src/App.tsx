@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Management from "./components/Management";
 import Showcase from "./components/Showcase";
 import Assessments from "./components/Assessments";
+import Plans from "./components/Plans";
 
 export default function App() {
    return (
@@ -12,6 +13,7 @@ export default function App() {
          <Management />
          <Showcase />
          <Assessments />
+         <Plans />
       </>
    );
 }

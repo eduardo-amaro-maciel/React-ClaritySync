@@ -9,3 +9,12 @@
    scroll-behavior: smooth;
    font-family: "Roboto";
 }
+
+::selection {
+   background-color: #ff6400;
+   color: #fffefe;
+}
+
+body {
+   background-color: #fffefe;
+}

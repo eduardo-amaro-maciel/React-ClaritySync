@@ -12,10 +12,8 @@ export default function Assessments() {
                Conte conosco para lhe ajudar
             </span>
             <div className="w-full flex flex-col gap-14 mt-20">
-               {usersAssessments.map((e) => (
-                  <>
-                     <Card {...e} />
-                  </>
+               {usersAssessments.map((e, i) => (
+                  <Card {...e} key={i} />
                ))}
             </div>
          </div>
